@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h>
 
 // WiFi settings
-const char* ssid = "Knight";
-const char* password = "K@rma20161721";
+const char* ssid = "";
+const char* password = "";
 
 #define GAS_SENSOR A0 // Analog pin connected to the MQ2 sensor
 #define GAS_SAMPLE_INTERVAL 2000 // Interval in milliseconds to sample the gas sensor
