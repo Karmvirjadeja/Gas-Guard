@@ -3,14 +3,14 @@ import psycopg2
 import time
 
 # ThingSpeak read API parameters
-channel_id = '2525394'
-read_api_key = 'LYTGWKDDMMHGSTHD'
+channel_id = ''
+read_api_key = ''
 
 # PostgreSQL connection parameters
 db_host = 'localhost'
-db_name = 'ytdemo'
-db_user = 'postgres'
-db_password = 'K@rmvir20'
+db_name = ''
+db_user = ''
+db_password = ''
 
 # Connect to PostgreSQL database
 conn = psycopg2.connect(host=db_host, port=5432, database=db_name, user=db_user, password=db_password)
